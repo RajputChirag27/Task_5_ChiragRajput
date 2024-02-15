@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body {}
+
+
+:root {
+    --primary-color: #;
+    --secondary-color: #;
+    --body-color: #;
+    --heading: #;
+    --paragraph: #;
+}
+
+
+/***** Navbar *****/
+
+span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.sign-up {
+    border-radius: 0.6rem;
+    background: #4CAF4F;
+}
+
+.login {
+    color: #4CAF4F !important;
+}
+
+.login:hover {
+    background-color: #4CAF4F !important;
+    color: white !important;
+    border-radius: 0.6rem;
+}
+
+.logo {
+    width: 15.449rem;
+    height: 2.4rem;
+}
+
+
+/***** End Navbar *****/
+
+
+
+/***** Main *****/
+
+
+/***** Carousel *****/
+
+.car-row {
+    background: #F5F7FA;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+
+}
+
+.p-head {
+    font-family: Inter;
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 7.6rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.p-head-1 {
+    font-family: Inter;
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 7.6rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4CAF4F;
+}
+
+.car-content {
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #717171;
+
+}
+
+.illustration {
+    max-width: 39.1rem;
+    max-height: 40.7rem;
+}
+
+.illustration-1 {
+    max-width: 44.2rem;
+
+    max-height: 43.3rem;
+}
+
+
+/***** End Carousel *****/
+
+
+/***** Client Section *****/
+.headline-2 {
+    font-family: Inter;
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.headline-2-1 {
+    font-family: Inter;
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.logo-section {
+    width: 100%;
+    max-width: 1rem;
+    height: auto;
+}
+
+
+
+
+/***** End Client Section *****/
+
+
+
+/***** Community *****/
+
+.card-title {
+
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.card {
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    border: none;
+}
+
+.card-img-top {
+    width: 100%;
+    max-width: 6.5rem;
+    height: auto;
+}
+
+.card-width {
+    width: 100%;
+    max-width: 30rem;
+}
+
+.card-content {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #717171;
+
+}
+
+/***** End Community *****/
+
+
+/***** Body Section *****/
+
+.body-section {
+    width: 100%;
+    max-width: 60.1rem;
+}
+
+
+/***** End Body Section *****/
+
+/* Achievements Section Starts here  */
+
+.vectors{
+    width: 100%;
+    max-width: 4.8rem;
+    height: 100%;
+    max-height: 4.8rem;
+}
+
+
+
+/***** Customer Section *****/ 
+
+.customer-content{
+    width: 100%;
+    max-width: 74.8rem;
+}
+
+.tim-smith{
+
+font-family: Inter;
+font-size: 2rem;
+font-weight: 600;
+line-height: 2.8;
+letter-spacing: 0em;
+text-align: left;
+color: #4CAF4F;
+
+
+}
+
+/***** End Customer Section *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** End Main *****/
+
+
+
+
+/***** Media *****/
+@media screen and (max-width: 1024px) {
+    * {
+        font-size: 58.5%;
+    }
+
+    .nav-dis {
+        justify-content: space-between !important;
+    }
+
+    .logsign-button {
+        flex-direction: column;
+        margin-right: 0 !important;
+    }
+
+    .nav-link {
+        padding-left: 0 !important;
+    }
+
+    .car-row-c {
+        width: 80% !important;
+        flex-wrap: wrap-reverse;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .car-row-d {
+        width: 80% !important;
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .p-head,
+    .p-head-1 {
+        font-size: 4rem;
+    }
+
+    .login {
+       margin-bottom: 1rem !important;
+       margin-left: 1rem;
+    }
+
+    .client-sec {
+        width: 100% !important;
+        /* justify-content: start !important; */
+    }
+
+    /* 
+    #logo7{
+        padding-right: 15rem !important;
+    } */
+
+
+    /* .lessons{
+    align-items: center !important;
+    justify-content: center;
+    text-align: center !important;
+} */
+
+    .register-button {
+        margin-bottom: 4rem !important;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-dis {
+        justify-content: space-between !important;
+    }
+
+    .logsign-button {
+        flex-direction: column;
+        margin-right: 0 !important;
+    }
+
+    .nav-link {
+        padding-left: 0 !important;
+    }
+
+    .p-head,
+    .p-head-1 {
+        font-size: 3rem;
+
+    }
+
+    /* .client-sec{
+        width: 80% !important;
+    } */
+
+    /* .client-sec {
+        display: flex;
+        flex-direction: column;
+    } */
+
+
+    .logo-section {
+        margin-top: 5rem;
+    }
+
+    .logo-con {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+        width: 100% !important;
+        height: 100% !important;
+        padding-right: 4rem;
+    }
+
+
+    .client-sec {
+        width: 100% !important;
+        /* justify-content: start !important; */
+        align-items: center !important;
+    }
+
+    /* 
+    .client-sec{
+        justify-content: start !important;
+        margin: 5rem !important;
+        padding: 0 !important;
+    } */
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .logo {}
+
+    a.navbar-brand {
+        margin-left: 1rem !important;
+        padding: 1rem 0 !important;
+    }
+
+
+    .p-head,
+    .p-head-1 {
+        font-size: 2.2rem;
+
+    }
+
+    /* .client-sec {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    } 
+
+    .logo-section{
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    * {
+        font-size: 48.5%;
+    }
+
+
+    .p-head,
+    .p-head-1 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin: 1rem 0 !important;
+        padding: 0 !important;
+    }
+
+    .car-content {
+        margin: 1rem 0 !important;
+        padding: 0 !important;
+    }
+
+}
+
+
+/***** End Media *****/
