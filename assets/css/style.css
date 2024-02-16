@@ -203,7 +203,7 @@ span.navbar-toggler-icon {
 
 /* Achievements Section Starts here  */
 
-.vectors{
+.vectors {
     width: 100%;
     max-width: 4.8rem;
     height: 100%;
@@ -212,27 +212,43 @@ span.navbar-toggler-icon {
 
 
 
-/***** Customer Section *****/ 
+/***** Customer Section *****/
 
-.customer-content{
+.customer-content {
     width: 100%;
     max-width: 74.8rem;
 }
 
-.tim-smith{
+.tim-smith {
 
-font-family: Inter;
-font-size: 2rem;
-font-weight: 600;
-line-height: 2.8;
-letter-spacing: 0em;
-text-align: left;
-color: #4CAF4F;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4CAF4F;
 
 
 }
 
 /***** End Customer Section *****/
+
+/***** Community Section *****/
+
+.comm-content{
+    width: 100%;
+    max-width: 62.8rem;
+}
+
+.comm-img{
+    width: 100%;
+    max-width: 36.8rem;
+    height: 100%;
+    max-height: 36.8rem;
+}
+/***** End Community Section *****/
+
 
 
 
@@ -293,8 +309,8 @@ color: #4CAF4F;
     }
 
     .login {
-       margin-bottom: 1rem !important;
-       margin-left: 1rem;
+        margin-bottom: 1rem !important;
+        margin-left: 1rem;
     }
 
     .client-sec {
