@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 
@@ -236,18 +237,80 @@ span.navbar-toggler-icon {
 
 /***** Community Section *****/
 
-.comm-content{
+.comm-content {
     width: 100%;
     max-width: 62.8rem;
 }
 
-.comm-img{
+.comm-img {
     width: 100%;
     max-width: 36.8rem;
     height: 100%;
     max-height: 36.8rem;
 }
+
 /***** End Community Section *****/
+
+/***** Call to Action *****/
+
+.headline-1 {
+
+    width: 100%;
+    max-width: 88.7rem;
+    font-family: Inter;
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 7.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #263238;
+
+}
+
+/***** End Call to Action *****/
+
+
+/***** Footer Section *****/
+
+#button-addon1 {
+    color: #ffc371;
+}
+
+.f-logo:hover{
+    background-color: black;
+}
+
+
+.form-control::placeholder {
+    color: #D9DBE1;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
+.email-f::placeholder {
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/***** End Footer Section *****/
+
+
+
+
 
 
 
@@ -356,6 +419,11 @@ span.navbar-toggler-icon {
 
     }
 
+    .headline-1 {
+        font-size: 5.4rem;
+        line-height: 6.6rem;
+    }
+
     /* .client-sec{
         width: 80% !important;
     } */
@@ -412,6 +480,11 @@ span.navbar-toggler-icon {
 
     }
 
+    .headline-1 {
+        font-size: 4.4rem;
+        line-height: 5.6rem;
+    }
+
     /* .client-sec {
         width: 100% !important;
         display: flex;
@@ -454,6 +527,10 @@ span.navbar-toggler-icon {
         padding: 0 !important;
     }
 
+    .headline-1 {
+        font-size: 3.4rem;
+        line-height: 4.6rem;
+    }
 }
 
 
