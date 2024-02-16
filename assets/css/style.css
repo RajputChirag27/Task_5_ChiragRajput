@@ -378,20 +378,8 @@ a{
 
     .client-sec {
         width: 100% !important;
-        /* justify-content: start !important; */
     }
 
-    /* 
-    #logo7{
-        padding-right: 15rem !important;
-    } */
-
-
-    /* .lessons{
-    align-items: center !important;
-    justify-content: center;
-    text-align: center !important;
-} */
 
     .register-button {
         margin-bottom: 4rem !important;
@@ -424,14 +412,6 @@ a{
         line-height: 6.6rem;
     }
 
-    /* .client-sec{
-        width: 80% !important;
-    } */
-
-    /* .client-sec {
-        display: flex;
-        flex-direction: column;
-    } */
 
 
     .logo-section {
@@ -451,16 +431,10 @@ a{
 
     .client-sec {
         width: 100% !important;
-        /* justify-content: start !important; */
         align-items: center !important;
     }
 
-    /* 
-    .client-sec{
-        justify-content: start !important;
-        margin: 5rem !important;
-        padding: 0 !important;
-    } */
+
 }
 
 
@@ -484,22 +458,6 @@ a{
         font-size: 4.4rem;
         line-height: 5.6rem;
     }
-
-    /* .client-sec {
-        width: 100% !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center !important;
-        align-items: center !important;
-    } 
-
-    .logo-section{
-        margin: 0 !important;
-        padding: 0 !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
 
 
 }
